@@ -1,5 +1,6 @@
-INITRAMFS=http://dl-cdn.alpinelinux.org/alpine/v3.10/releases/armhf/netboot-3.10.3/initramfs-vanilla
-VMLINUZ=http://dl-cdn.alpinelinux.org/alpine/v3.10/releases/armhf/netboot-3.10.3/vmlinuz-vanilla
+ARCH=armv7
+INITRAMFS=http://dl-cdn.alpinelinux.org/alpine/v3.10/releases/armv7/netboot-3.10.3/initramfs-vanilla
+VMLINUZ=http://dl-cdn.alpinelinux.org/alpine/v3.10/releases/armv7/netboot-3.10.3/vmlinuz-vanilla
 
 if [ ! -f initramfs-vanilla ]; then
 	wget "$INITRAMFS"

@@ -1,0 +1,4 @@
+run.sh
+initramfs-vanilla
+vmlinuz-vanilla
+run.sh
